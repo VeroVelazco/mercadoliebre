@@ -1,0 +1,124 @@
+/* Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+*/
+.home {
+    font-size: 12px;
+
+}
+
+.home__header {
+    background-color: var(--colorAmarillo);
+    padding: 20px;
+    text-align: center;
+}
+
+.home__header__logo img {
+    width: 200px;
+}
+
+.home__header__serch-bar {
+    margin-bottom: 20px;
+}
+
+.home__header__nav {
+    margin-bottom: 30px;
+
+}
+
+.home__header__nav__navbar {
+    text-align: left;
+}
+
+.home__header__nav__navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.home__header__nav__navbar a {
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.home__header__burger-menu {
+    background-color: var(--colorCeleste);
+    color: #fff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* Main */
+
+.home__main {
+    padding: 20px;
+    text-align: center;
+}
+
+.home__main__section h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+
+.home__main__section__product {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.home__main__section__product__descripcion p,
+h4 {
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Footer */
+
+.home__footer {
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.home__footer__section {
+    font-size: 12px;
+}
+
+.home__footer__section div {
+    padding-bottom: 40px;
+}
+
+.home__footer__section i {
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home__footer__section h4 {
+    text-align: center;
+}
+
+.home__footer__section p {
+    font-size: 12px;
+    color: var(--colorGrisOscuro);
+}
+
+.final-de-pie{
+    margin-bottom: 0;
+}
