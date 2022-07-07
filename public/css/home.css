@@ -6,6 +6,7 @@ Descuentos: 16px
 Descripciones: 16px
 
 */
+/* home */
 .home {
     font-size: 12px;
 
@@ -67,25 +68,60 @@ Descripciones: 16px
 /* Main */
 
 .home__main {
-    padding: 20px;
-    text-align: center;
+    background-color: var(--colorGrisClaro);
+    border: solid 1px white;
 }
 
 .home__main__section h3 {
     font-size: 24px;
-    margin-bottom: 30px;
-
+    text-align: center;
 }
 
 .home__main__section__product {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    border: solid 1px white;
+    background-color: white;
+    margin: 10px;
+
+
+}
+
+.home__main__section__product img {
+    width: 100%;
+    height: auto;
+
+}
+
+.home__main__section__product__descripcion {
+    border-top: solid 1px var(--colorGrisClaro);
+    padding: 15px;
+    line-height: 25px;
+
+}
+
+.home__main__section__product__descripcion button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px var(--colorVerde);
+    background-color: white;
+}
+
+.home__main__section__product__descripcion i {
+    font-size: 15px;
+    color: var(--colorVerde);
+
+}
+
+.home__main__section__product__descripcion .porcentaje {
+    color: var(--colorVerde);
+
 }
 
 .home__main__section__product__descripcion p,
 h4 {
     font-size: 16px;
-    text-align: left;
+
+
 }
 
 /* Footer */
@@ -96,12 +132,9 @@ h4 {
     padding-bottom: 0;
 }
 
-.home__footer__section {
-    font-size: 12px;
-}
-
 .home__footer__section div {
     padding-bottom: 40px;
+
 }
 
 .home__footer__section i {
@@ -119,6 +152,6 @@ h4 {
     color: var(--colorGrisOscuro);
 }
 
-.final-de-pie{
-    margin-bottom: 0;
+.final-de-pie {
+    margin-bottom: 0px;
 }
