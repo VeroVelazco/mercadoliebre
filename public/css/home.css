@@ -7,63 +7,57 @@ Descripciones: 16px
 
 */
 /* home */
-.home {
-    font-size: 12px;
 
-}
 
 .home__header {
     background-color: var(--colorAmarillo);
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0;
+    
 }
 
 .home__header__logo img {
-    width: 200px;
+    width: 150px;
+    padding:10px 20px;
 }
 
 .home__header__serch-bar {
-    margin-bottom: 20px;
+    padding: 15px 20px;
+    width:25px;
+    
+}
+
+.home__header__serch-bar button i{
+    text-align: left;
+   
 }
 
 .home__header__nav {
-    margin-bottom: 30px;
-
+    font-size: 8px;
+    text-align: center;
+    font-weight: 100;
 }
 
-.home__header__nav__navbar {
-    text-align: left;
-}
-
-.home__header__nav__navbar ul {
+.home__header__nav__navbar ul ,
+.home__header__nav__login-bar ul{
     padding: 0;
-    margin: 0;
-    list-style: none;
+    margin: 0; 
+    margin-bottom: 15px;
+   
 }
 
-.home__header__nav__navbar a {
-    text-decoration: none;
-    color: #222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
-}
-
-.home__header__burger-menu {
+.home__header__burger-menu  {
     background-color: var(--colorCeleste);
-    color: #fff;
+    color: #ffffff;
     display: block;
-    max-width: 50px;
-    padding: 15px 0;
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
     font-size: 18px;
-    margin: auto;
-    width: 50px;
-    height: 50px;
+    margin : auto; 
+    width: 40px;
+    height: 40px;
+    
+    
 }
-
-
 
 /* Main */
 
@@ -155,4 +149,73 @@ h4 {
 
 .final-de-pie {
     margin-bottom: 0px;
+}
+
+
+
+@media (min-width:768px){
+    /* header */
+
+    .home {
+        font-size: 12px;
+    }
+    
+    .home__header {
+        background-color: red;
+        padding: 20px;
+    }
+    
+    .home__header__logo img {
+        width: 200px;
+    }
+    
+    .home__header__serch-bar {
+        margin-bottom: 20px;
+        
+    }
+    
+    .home__header__nav {
+        margin-bottom: 30px;
+        
+    
+    }
+    
+    .home__header__nav__navbar {
+        text-align: left;
+        /* display: none; */
+        
+    }
+    
+    .home__header__nav__navbar ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .home__header__nav__navbar a {
+        text-decoration: none;
+        color: #222;
+        display: inline-block;
+        padding: 5px 0;
+        font-size: 17px;
+        
+    }
+    
+    .home__header__burger-menu {
+        background-color: var(--colorCeleste);
+        color: #fff;
+        display: block;
+        max-width: 50px;
+        padding: 15px 0;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+    }
+
+    
+   
+    /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
 }
