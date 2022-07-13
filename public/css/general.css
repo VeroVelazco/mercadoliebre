@@ -15,9 +15,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 12px;
-    /* display: flex; */
-    flex-wrap: wrap;
+    font-size: 12px;
+   
 }
 
 li {
